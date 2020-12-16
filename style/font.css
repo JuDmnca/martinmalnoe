@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Goudy_Oldstyle';
+    src: url('font/LTCGoudyOldstyle.woff2') format('woff2'),
+        url('font/LTCGoudyOldstyle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Goudy_Oldstyle';
+    src: url('font/LTCGoudyOldstyle-BoldItalic.woff2') format('woff2'),
+        url('font/LTCGoudyOldstyle-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Goudy_Oldstyle';
+    src: url('font/LTCGoudyOldstyle-Bold.woff2') format('woff2'),
+        url('font/LTCGoudyOldstyle-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --goudy: 'Goudy_Oldstyle'
+}
