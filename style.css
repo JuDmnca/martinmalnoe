@@ -1,44 +1,11 @@
-
-
-
-
-
 .title{
   display: none;
 }
-
-#firstR{
-  margin-top: 0;
-}
-.photography {
-	font-family: Goudy_OldStyle-Bold;
-	color: #000;
-	/* background-color: #5995DA; */
-	padding: 20px 0;
-	margin-top: 20px;
-}
-
-
-.projects{
-  	/*background-color: #5995DA;*/
-  	color: #000;
-}
-
-
-
-
 
 .photos{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-}
-
-.row {
-  display: flex;
- 	flex-wrap: wrap;
-  width: 100%;
-
 }
 
 .flex-container img{
@@ -82,10 +49,7 @@
 }
 
 
-
 /*HOMEPAGE*/
-
-
 
 @media screen and (min-width: 1000px) {
 
@@ -104,7 +68,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   #first{
     margin-top: 300px;
   }
@@ -119,16 +82,6 @@
   text-align: center;
   margin-bottom: 30px;
   margin-top: 10px;
-}
-
-.nav{
-  display: none;
-}
-
-
-.player{
-  margin-bottom: 125px;
-  line-height: 35px;
 }
 
 .player p{
@@ -362,7 +315,7 @@
 }
 
 
-.RS{
+.RS {
   font-size: .8em;
 }
 

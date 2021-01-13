@@ -17,6 +17,29 @@
   justify-content: center;
 }
 
+.row {
+  display: flex;
+ 	flex-wrap: wrap;
+  width: 100%;
+}
+
+.tac {
+  text-align: center;
+}
+
+.x {
+  width: 100%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.pv20 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* Reset */
 
 * {
@@ -48,6 +71,10 @@ li {
 }
 
 /* Navigation */
+
+#nav {
+  display: none;
+}
 
 .nav-container{
   z-index: 1;
@@ -147,6 +174,11 @@ li {
   color: #FFF;
   padding: 10px 0;
   font-size: 4.8em;
+}
+
+.photography {
+	padding: 20px 0;
+	margin-top: 20px;
 }
 
 /* Index */
@@ -265,7 +297,6 @@ li {
   .nav {
     display: none;
   }
-
   #scene {
     top: 0;
   }
@@ -294,14 +325,14 @@ li {
 /* Photography */
 
 .main {
-  max-width: 75%;
   width: 100%;
-  margin: 6% auto;
+  margin: 6% 5%;
   justify-content: flex-start;
 }
 
 .main-films {
   margin: 6% 0 6% auto;
+  max-width: 75%;
 }
 
 .menu-container {
@@ -383,4 +414,16 @@ li {
   width: 100%;
   text-align: center;
   margin-top: 15px;
+}
+
+/* PROJECT */
+
+.project-container {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-container > .player {
+  padding-top: 0;
 }
