@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" name="">
+  <meta charset="utf-8" name="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="img/ico.jpg" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="style/font.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>Martin Malnoë</title>
 </head>
 <body>
+  <div class="menu_toggle" class="dfr">
+    <a class="menu_name" href="index.html">MARTIN MALNOË</a>
+    <div class="menu_burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu_dropdown dfr aic jcc">
+        <ul>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="#.html">CONTACT</a>
+            </li>
+            <li>/</li>
+            <li>
+                <a target=blank href="https://www.instagram.com/martinmalnoe/" class="RS">INSTAGRAM</a>
+            </li>
+        </ul>
+    </div>
+  </div>
   <div class="main dfr">
     <div class='menu-container dfc'>
       <h1 id="name_black">
@@ -25,28 +48,6 @@
         <a href="films.html" class="">FILMS</a>
       </div>
     </div>
-    <nav id="nav" role="navigation">
-        <div id="menuToggle">
-          <a href="index.html"><img src="IMG/MMFP.png" id="MMMenu"></a>
-          <input type="checkbox" />
-          <div class="nav-span">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul id="menu">
-            <a href="index.html"><img src="IMG/MMFPW.png" id="MMMenuToggle"></a>
-              <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li>/</li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a target=blank href="mailto:malnoemartin@gmail.fr">CONTACT</a></li>
-                <li>/</li>
-                <li><a target=blank href="https://www.instagram.com/martinmalnoe/" class="RS">INSTAGRAM</a></li>
-              </ul>
-          </ul>
-        </div>
-    </nav>
     <div class="flex-container">
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -69,5 +70,6 @@
 
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 <script src="js/slider.js"></script>
 </html>

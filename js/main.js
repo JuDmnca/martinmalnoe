@@ -7,6 +7,21 @@ if (window.matchMedia("(min-width: 600px)").matches) {
     })
 }
 
+const burger = document.querySelector('.menu_burger')
+const logo = document.querySelector('.menu_name')
+const menu = document.querySelector('.menu_dropdown')
+if (burger) {
+	burger.addEventListener('click', toggleBurger)
+}
+
+function toggleBurger() {
+    console.log('toggle')
+  burger.classList.toggle('is-active')
+  logo.classList.toggle('is-active')
+  menu.classList.toggle('is-active')
+}
+
+
 let el
 function defineEl(element){
     el = element

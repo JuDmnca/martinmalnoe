@@ -3,10 +3,10 @@ const mySwiper = new Swiper('.swiper-container', {
   loop: true,
   allowTouchMove: false,
   preventClicks: false,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   preloadImages: false,
   lazy: true,
   lazy: {
