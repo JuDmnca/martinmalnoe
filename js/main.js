@@ -1,12 +1,3 @@
-if (window.matchMedia("(min-width: 600px)").matches) {
-    const scene = document.getElementById('scene')
-    const parallaxInstance = new Parallax(scene, {
-        pointerEvents: true,
-        invertX: false,
-        invertY: false
-    })
-}
-
 const burger = document.querySelector('.menu_burger')
 const logo = document.querySelector('.menu_name')
 const menu = document.querySelector('.menu_dropdown')
@@ -15,30 +6,26 @@ if (burger) {
 }
 
 function toggleBurger() {
-    console.log('toggle')
   burger.classList.toggle('is-active')
   logo.classList.toggle('is-active')
   menu.classList.toggle('is-active')
 }
 
 
-let el
-function defineEl(element){
-    el = element
-}
+let el = document.getElementById('bg')
 
-var index = 1
-var i = 1
+let index = 1
+let i = 1
 function changeURL(el){
     if(el != null){
         while(i == index){
-            i = Math.floor(Math.random() * 8) // Nbr de photo
+            i = Math.floor(Math.random() * 5) // Nbr de photo
         }
         index = i
         el.classList.remove('fadeIn')
         el.classList.add('fadeOut')
         setTimeout(function () {
-            el.src = 'IMG/bg/bg-0' + index + '.jpg';
+            el.src = 'img/bg/bg-0' + index + '.jpg';
             setTimeout(function () {
                 el.classList.remove('fadeOut')
                 el.classList.add('fadeIn')
