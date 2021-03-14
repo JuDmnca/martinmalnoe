@@ -3,6 +3,8 @@ const mySwiper = new Swiper('.swiper-container', {
   loop: true,
   allowTouchMove: false,
   preventClicks: false,
+  observer: true,
+  observeParents: true,
   // autoplay: {
   //   delay: 3000,
   //   disableOnInteraction: false,
