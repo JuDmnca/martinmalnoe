@@ -1,3 +1,12 @@
+if (window.matchMedia("(min-width: 600px)").matches) {
+    const scene = document.getElementById('scene')
+    const parallaxInstance = new Parallax(scene, {
+        pointerEvents: true,
+        invertX: false,
+        invertY: false
+    })
+}
+
 const burger = document.querySelector('.menu_burger')
 const logo = document.querySelector('.menu_name')
 const menu = document.querySelector('.menu_dropdown')

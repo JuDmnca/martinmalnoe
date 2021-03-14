@@ -83,7 +83,7 @@
 
 body {
   margin: 0;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   overflow-x: hidden;
   font-family: var(--goudy);
 }
@@ -222,7 +222,7 @@ li {
 
 .photography {
 	padding: 20px 0;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 
 @media screen and (max-width: 1000px) {
@@ -305,7 +305,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: auto;
 }
 
@@ -461,9 +461,9 @@ li {
 }
 
 .projects {
-  font-size: 1em;
-  line-height: 1.3em;
-  padding-top: 50px;
+  font-size: 0.8em;
+  line-height: 1em;
+  padding-top: 30px;
 }
 
 .project-container {
@@ -476,7 +476,7 @@ li {
 }
 
 .swiper-container {
-  max-height: 90vh;
+  max-height: 85vh;
 }
 
 .swiper-slide {
